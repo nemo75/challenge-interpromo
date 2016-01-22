@@ -1,0 +1,290 @@
+body {
+	margin: 0;
+	padding :0;
+	font-family: 'Open Sans', sans-serif;
+}
+/* bandeau */
+.container_bandeau {
+	background-size: cover;
+	height: 550px;
+	width: 100%;
+}
+
+.titre-bandeau {
+	display: inline;
+	vertical-align: top;
+	color: white;
+	margin-left: 10px;
+}
+.b {
+	display: inline;
+	height: 35px;
+	width: 35px;
+}
+.connect {
+	float: right;
+	display: inline;
+}
+.login, .signup {
+	color: white;
+	display: inline;
+	vertical-align: top;
+	margin-left: 15px;
+	margin-right: 15px;
+	font-weight: 100;
+}
+
+.slogan-container {
+	margin: auto;
+	margin-top: 150px;
+}
+.slogan {
+	color: white;
+	text-align: center;
+	font-size: 50px;
+}
+.slogan-h1 {
+	color: white;
+	text-align: center;
+	font-weight: 100;
+}
+.slogan-button {
+	background-color: white;
+	width: 280px;
+	height: 40px;
+	text-align: center;
+	margin: auto;
+	border-radius: 3%;
+}
+.slogan-button>h4 {
+	padding-top: 12px;
+	color: #8080BE;
+}
+
+/*  value */
+
+.value {
+	width: 100%;
+	height: 300px;
+	padding-top: 100px;
+	padding-bottom: 50px;
+	display: inline-block;
+}
+.quick {
+	width: 20%;
+	display: inline-block;
+	text-align: center;
+	padding-left: 150px;
+}
+.quick>h4 {
+	font-weight: 200;
+	color: #6D6D76;
+}
+
+.barre-horizontale {
+	width:2px;
+	height: 150px;
+	display: inline;
+	background-color: black;
+	padding-left: 200px;
+}
+hr{
+   	height : 200px;
+   	display: inline-block;
+   	margin-left: 50px;
+}
+.monnaie{
+	width: 100%;
+	height:auto;
+	padding-top: 100px;
+	text-align: center;
+	border-top: 2px solid grey;
+	background-color: #F0F0F0;
+}
+.couleur {
+	color:#6D6D76;
+}
+.dolares {
+	width: 30%;
+	display: inline-block;
+	margin-left: -550px;
+	margin-top: -100px;
+}
+.dollar {
+	color: purple;
+	font-size: 120px;
+	float: right;
+
+}
+.titre-dollar {
+	display: inline-block;
+	vertical-align: top;
+}
+
+/* bandeau credit card */
+
+.credit-card{
+	width: 100%;
+	height: 50px;
+	background-color: #4C535C;
+	text-align: center;
+	color: white;
+	margin-top: -20px;
+}
+
+/* debut du z */
+
+.z-1 {
+	width: 100%;
+ 	height: 450px;
+}
+.z-1_1 {
+	background-color: #7CD5EF;
+	width: 49%;
+	height: 550px;
+	overflow: hidden;
+	display: inline-block;
+	 border-bottom: 2px solid grey;
+	 text-align: center;
+}
+.z-images1 {
+	padding-top: 100px;
+}
+.titre {
+	margin-left: 250px;
+}
+
+.z-1_2 {
+	width: 50%;
+	display: inline-block;
+	vertical-align: top;
+	padding-top: 150px;
+}
+.z-1_2-h{
+	margin-top: -20px;
+}
+.z-1_2-p {
+	font-size: 18px;
+	font-weight: 700;
+}
+
+
+
+
+.z-2 {
+	width: 100%;
+ 	height: 450px;
+ 	margin-top: 100px;
+ 	margin-right: 0;
+}
+.z-2_1 {
+	background-color: #8080BE;
+	width: 50%;
+	height: 550px;
+	overflow: hidden;
+	display: inline-block;
+	border-bottom: 2px solid grey;
+	text-align: center;
+}
+.z-images2 {
+	padding-top: 100px;
+}
+.titre {
+	margin-left: 250px;
+}
+
+.z-2_2 {
+	width: 49%;
+	display: inline-block;
+	vertical-align: top;
+	padding-top: 150px;
+}
+.z-2_2-h{
+	margin-top: -20px;
+}
+.z-2_2-p {
+	font-size: 18px;
+	font-weight: 700;
+}
+
+
+
+.z-3 {
+	width: 100%;
+ 	height: 450px;
+	margin-top: 100px;
+}
+.z-3_1 {
+	background-color: #7CD5EF;
+	width: 49%;
+	height: 550px;
+	overflow: hidden;
+	display: inline-block;
+	text-align: center;
+}
+.z-images1 {
+	padding-top: 100px;
+}
+.titre {
+	margin-left: 250px;
+}
+
+.z-3_2 {
+	width: 49%;
+	display: inline-block;
+	vertical-align: top;
+	padding-top: 150px;
+}
+.z-3_2-h{
+	margin-top: -20px;
+}
+.z-3_2-p {
+	font-size: 18px;
+	font-weight: 700;
+}
+
+
+/* bannniere create account */
+
+.create-account {
+	width: 100%;
+	height: auto;
+	margin-top: 100px;
+	text-align: center;
+	padding-bottom: 50px;
+	padding-top: 50px;
+	background-color: #F0F0F0;
+	border-top: 2px solid grey;
+}
+
+.boutton-account {
+	width: 250px;
+	height: 40px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background-color: #00B088;
+	color: white;
+	margin:auto;
+	border-radius: 5%;
+}
+.boutton-account>h4 {
+	margin-top: 10px;
+}
+.footer {
+	height: 400px;
+	width: 100%;
+	background-color: #242629;
+}
+.footer-ul {
+	margin-top: -5px;
+	margin-left: 150px;
+	padding-top: 100px;
+	display: inline-block;
+}
+
+.footer-li {
+	color: white;
+	padding-left: 250px;
+	list-style-type: none;
+	padding-top: 20px;
+}
